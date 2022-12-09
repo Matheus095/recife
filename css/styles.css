@@ -1,4 +1,26 @@
 .romrecife{
     color: red;
     font-size: 30px;
+    justify-content:center;
 } 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7rem;
+}
+
+
+/* as classes das 2 divs*/
+.esquerda {
+    justify-content: flex-start;
+}
+
+.direita {
+    justify-content: flex-end;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #e9e1e1;
+}
